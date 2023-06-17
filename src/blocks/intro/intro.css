@@ -1,8 +1,9 @@
 .intro {
-  display: flex;
   height: 100vh;
-  justify-content: center;
+  position: relative;
   width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 .no-webp .intro {
