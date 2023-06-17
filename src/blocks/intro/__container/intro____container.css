@@ -1,0 +1,47 @@
+@keyframes container-opacity {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes container-transform {
+  0% {
+    transform: scale(.85);
+  }
+  30% {
+    transform: scale(1.15);
+  }
+  45% {
+    transform: scale(.9);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(.95);
+  }
+  90% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.intro__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 18px;
+  animation: container-opacity 2s linear,
+    container-transform 1s linear 1.5s;
+
+}

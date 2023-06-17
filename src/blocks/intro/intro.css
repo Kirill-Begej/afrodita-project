@@ -1,0 +1,31 @@
+.intro {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.no-webp .intro {
+  background: url('../../images/intro/intro@1x.jpg') center center;
+  background-size: cover;
+}
+
+.webp .intro {
+  background: url('../../images/intro/intro@1x.webp') center center;
+  background-size: cover;
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .no-webp .intro {
+    background: url('../../images/intro/intro@2x.jpg') center center;
+    background-size: cover;
+  }
+
+  .webp .intro {
+    background: url('../../images/intro/intro@2x.webp') center center;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'GoraFree';
+  src:
+    url('./fonts/gora-free.woff2') format('woof2'),
+    url('./fonts/gora-free.woff') format('woof');
+  font-weight: normal;
+  font-style:  normal;
+}
+
+@font-face {
+  font-family: 'Opensans';
+  src:
+    url('./fonts/opensans-bold.woff2') format('woof2'),
+    url('./fonts/opensans-bold.woff') format('woof');
+  font-weight: bold;
+  font-style:  normal;
+}
+
+@font-face {
+  font-family: 'Opensans';
+  src:
+    url('./fonts/opensans-light.woff2') format('woof2'),
+    url('./fonts/opensans-light.woff') format('woof');
+  font-weight: 300;
+  font-style:  normal;
+}
+
+@font-face {
+  font-family: 'OpensansLight';
+  src:
+    url('./fonts/opensans-light-italic.woff2') format('woof2'),
+    url('./fonts/opensans-light-italic.woff') format('woof');
+  font-weight: 300;
+  font-style:  italic;
+}
