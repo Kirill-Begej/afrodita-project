@@ -36,8 +36,8 @@
 
 .intro__container {
   align-items: center;
-  animation: container-opacity 2s linear,
-    container-transform 1s linear 1.5s;
+  animation: container-opacity 2s linear forwards,
+    container-transform 1s linear 1.5s forwards;
   display: flex;
   flex-direction: column;
   gap: 40px;
