@@ -1,0 +1,6 @@
+.logo {
+  color: var(--colorOrangeLight);
+  font: 18px 'GoraFree', Times, serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}

@@ -1,0 +1,12 @@
+.about__schedule {
+  align-self: flex-end;
+  color: var(--colorOrange);
+  cursor: pointer;
+  font: 14px 'OpensansBold', Arial, sans-serif;
+  text-decoration: underline;
+  transition: .3s;
+}
+
+.about__schedule:hover {
+  color: #b9b9b9;
+}

@@ -1,0 +1,7 @@
+.menu__link_active {
+  color: var(--colorOrangeLight);
+}
+
+.menu__link_active .menu__link-image {
+  stroke: var(--colorOrangeLight);
+}

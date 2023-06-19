@@ -1,0 +1,16 @@
+.social__link {
+  align-items: center;
+  background-color: #d4d4d8;
+  border-radius: 50%;
+  display: block;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  overflow: hidden;
+  transition: .3s;
+  width: 20px;
+}
+
+.social__link:hover {
+  background-color: var(--colorOrangeLight);
+}

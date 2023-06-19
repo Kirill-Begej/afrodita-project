@@ -2,9 +2,7 @@
   background-color: var(--colorOrangeLight);
   border-radius: 5px;
   color: var(--colorWhite);
-  font-family: 'Opensans', 'Arial', sans-serif;
-  font-size: 12px;
-  font-weight: bold;
+  font: bold 12px 'Opensans', Arial, sans-serif;
   letter-spacing: 1px;
   padding: 16px 0;
   text-align: center;

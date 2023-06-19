@@ -1,0 +1,5 @@
+.about__phone {
+  color: var(--colorWhite);
+  font: 21px 'OpensansBold', Arial, sans-serif;
+  text-decoration: none;
+}

@@ -2,6 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 const mode = process.env.NODE_ENV || 'development';
 const devMode = mode === 'development';
@@ -10,6 +12,7 @@ const devtool = devMode ? 'source-map' : undefined;
 
 const pages = [
   { chunks: ['index'], page: 'index.html', template: path.resolve(__dirname, './src/pages/index.html'), },
+  { chunks: ['home'], page: 'home.html', template: path.resolve(__dirname, './src/pages/home.html'), },
 ];
 
 const htmlPlugins = pages.map((page) => {
@@ -27,6 +30,7 @@ module.exports = {
   devtool,
   entry: {
     'index': path.resolve(__dirname, './src/pages/index.js'),
+    'home': path.resolve(__dirname, './src/pages/home.js'),
   },
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -67,7 +71,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(png|svg|jpe?g|gif|webp)$/i,
+        test: /\.(png|jpe?g|gif|webp)$/i,
         use: [
           {
             loader: 'image-webpack-loader',
@@ -96,6 +100,13 @@ module.exports = {
           filename: 'images/[hash][ext]'
         }
       },
+      {
+        test: /\.svg$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[hash][ext]'
+        }
+      }
     ]
   },
   plugins: [
@@ -103,11 +114,37 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'styles/[name].[hash].css',
     }),
-    ...htmlPlugins
+    ...htmlPlugins,
+    new FaviconsWebpackPlugin({
+      logo: 'src/images/favicon/favicon.png',
+      mode: 'webapp',
+      devMode: 'webapp',
+      prefix: 'images/favicons/',
+      cache: true,
+      inject: htmlPlugin => {
+        return true
+      },
+      favicons: {
+        background: '#fff',
+        theme_color: '#333',
+      },
+    }),
   ],
   optimization: {
     splitChunks: {
       chunks: "all",
-    }
+    },
+    minimizer: [
+      new CssMinimizerPlugin({
+        minimizerOptions: {
+          preset: [
+            "default",
+            {
+              discardComments: { removeAll: true },
+            },
+          ],
+        },
+      }),
+    ],
   }
 }
