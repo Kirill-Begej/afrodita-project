@@ -1,0 +1,10 @@
+.banner__container {
+  max-width: 740px;
+  width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  .banner__container {
+      width: 94.87%;
+  }
+}

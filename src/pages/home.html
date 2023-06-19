@@ -11,6 +11,7 @@
   <title>Главная страница - Фитнесс-клуб Афродита</title>
 </head>
 <body class="root">
+
   <header class="header">
     <div class="container">
       <a href="/index.html" class="logo">афродита</a>
@@ -48,9 +49,22 @@
       </div>
     </div>
   </header>
+
   <main class="main">
 
+    <section class="banner">
+      <div class="banner__container">
+        <picture>
+          <source srcset="../images/banner/banner@2x.webp" media="(min-resolution:300dpi)">
+          <source srcset="../images/banner/banner@2x.png" media="(min-resolution:300dpi)">
+          <source srcset="../images//banner/banner@1x.webp">
+          <img src="../images/banner/banner@1x.png" alt="Мужчина в прыжке, на заднем фоне надпись Just Do It." class="banner__image">
+        </picture>
+      </div>
+    </section>
+
   </main>
+
   <footer class="footer">
     <div class="container">
       <div class="footer__author">Автор работы: <span class="footer__author-name">Кирилл Бегей</span></div>
@@ -87,5 +101,6 @@
       </div>
     </div>
   </footer>
+
 </body>
 </html>
