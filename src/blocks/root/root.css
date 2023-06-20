@@ -12,4 +12,18 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  line-height: 1.2;
+}
+
+.root::-webkit-scrollbar {
+  width: 8px;
+}
+
+.root::-webkit-scrollbar-track {
+  background: var(--colorBlackBg);
+}
+
+.root::-webkit-scrollbar-thumb {
+  background: var(--colorOrange);
+  border-radius: 5px;
 }

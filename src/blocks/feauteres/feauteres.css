@@ -1,6 +1,7 @@
-.footer {
+.feauteres {
   background-color: var(--colorBlackBg);
   color: var(--colorWhite);
   display: flex;
+  font: 18px 'OpensansLight', Arial, sans-serif;
   justify-content: center;
 }

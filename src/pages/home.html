@@ -13,7 +13,7 @@
 <body class="root">
 
   <header class="header">
-    <div class="container">
+    <div class="header__container">
       <a href="/index.html" class="logo">афродита</a>
       <nav class="menu">
         <ul class="menu__list">
@@ -55,18 +55,77 @@
     <section class="banner">
       <div class="banner__container">
         <picture>
-          <source srcset="../images/banner/banner@2x.webp" media="(min-resolution:300dpi)">
-          <source srcset="../images/banner/banner@2x.png" media="(min-resolution:300dpi)">
-          <source srcset="../images//banner/banner@1x.webp">
-          <img src="../images/banner/banner@1x.png" alt="Мужчина в прыжке, на заднем фоне надпись Just Do It." class="banner__image">
+          <source srcset="../images/banner/banner@2x.webp" media="(min-resolution:300dpi)" />
+          <source srcset="../images/banner/banner@2x.png" media="(min-resolution:300dpi)" />
+          <source srcset="../images/banner/banner@1x.webp" />
+          <img src="../images/banner/banner@1x.png" alt="Мужчина в прыжке, на заднем фоне надпись Just Do It." class="banner__image" />
         </picture>
+      </div>
+    </section>
+
+    <section class="feauteres">
+      <div class="feauteres__container">
+        <h1 class="title title_color_white title_position_center feauteres__title">Особенности</h1>
+        <ul class="feauteres__list">
+          <li class="feauteres__item">
+            <div class="feauteres__image-container" />
+              <picture>
+                <source srcset="../images/feauteres/flower@2x.webp" media="(min-resolution:300dpi)" />
+                <source srcset="../images/feauteres/flower@2x.png" media="(min-resolution:300dpi)" />
+                <source srcset="../images/feauteres/flower@1x.webp">
+                <img src="../images/feauteres/flower@1x.png" alt="Цветок." class="feauteres__image" />
+              </picture>
+            </div>
+            <h2 class="feauteres__subtitle">Уникальность</h2>
+            <p class="feauteres__text">Мы делаем все,<br />для вашего комфорта</p>
+            <ul class="feauteres__text-list">
+              <li class="feauteres__text-item">Питание включено</li>
+              <li class="feauteres__text-item">Багаж (5кг)</li>
+              <li class="feauteres__text-item">Душ/баня</li>
+            </ul>
+          </li>
+          <li class="feauteres__item">
+            <div class="feauteres__image-container">
+              <picture>
+                <source srcset="../images/feauteres/star@2x.webp" media="(min-resolution:300dpi)" />
+                <source srcset="../images/feauteres/star@2x.png" media="(min-resolution:300dpi)" />
+                <source srcset="../images/feauteres/star@1x.webp" />
+                <img src="../images/feauteres/star@1x.png" alt="Звезда." class="feauteres__image" />
+              </picture>
+            </div>
+            <h2 class="feauteres__subtitle">Премиум-класс</h2>
+            <p class="feauteres__text">Наш зал оборудован тренажёрами A-класса</p>
+            <ul class="feauteres__text-list">
+              <li class="feauteres__text-item">Качество</li>
+              <li class="feauteres__text-item">Продуктивность</li>
+              <li class="feauteres__text-item">Результат</li>
+            </ul>
+          </li>
+          <li class="feauteres__item">
+            <div class="feauteres__image-container">
+              <picture>
+                <source srcset="../images/feauteres/palette@2x.webp" media="(min-resolution:300dpi)" />
+                <source srcset="../images/feauteres/palette@2x.png" media="(min-resolution:300dpi)" />
+                <source srcset="../images/feauteres/palette@1x.webp" />
+                <img src="../images/feauteres/palette@1x.png" alt="Палитра." class="feauteres__image" />
+              </picture>
+            </div>
+            <h2 class="feauteres__subtitle">личный тренер</h2>
+            <p class="feauteres__text">Тренер сделает всё<br />для вашего результата</p>
+            <ul class="feauteres__text-list">
+              <li class="feauteres__text-item">Программа</li>
+              <li class="feauteres__text-item">Питание</li>
+              <li class="feauteres__text-item">План тренировок</li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </section>
 
   </main>
 
   <footer class="footer">
-    <div class="container">
+    <div class="footer__container">
       <div class="footer__author">Автор работы: <span class="footer__author-name">Кирилл Бегей</span></div>
       <a href="/index.html" class="logo">афродита</a>
       <div class="social">

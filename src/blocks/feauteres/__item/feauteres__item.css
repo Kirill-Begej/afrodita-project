@@ -1,0 +1,6 @@
+.feauteres__item {
+  align-items: center;
+  display: flex;
+  flex-basis: 200px;
+  flex-direction: column;
+}

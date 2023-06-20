@@ -1,0 +1,12 @@
+.feauteres__container {
+  padding-top: 49px;
+  margin-bottom: 100px;
+  max-width: 740px;
+  width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  .feauteres__container {
+      width: 94.87%;
+  }
+}
