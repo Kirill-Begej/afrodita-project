@@ -1,0 +1,6 @@
+.pagination__arrow-image {
+  fill: #242121;
+  height: 10px;
+  width: 6px;
+  transition: fill .3s ease-out;
+}

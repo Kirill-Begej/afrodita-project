@@ -1,0 +1,8 @@
+.pagination__arrow-link_inactive {
+  cursor: default;
+  pointer-events: none;
+}
+
+.pagination__arrow-link_inactive .pagination__arrow-image_inactive {
+  fill: #bdbcbc;
+}

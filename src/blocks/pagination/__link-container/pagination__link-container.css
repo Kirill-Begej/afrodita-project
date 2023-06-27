@@ -1,0 +1,5 @@
+.pagination__link-container {
+  align-items: center;
+  column-gap: 15px;
+  display: flex;
+}

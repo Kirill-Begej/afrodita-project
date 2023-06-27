@@ -1,0 +1,7 @@
+.pagination__arrow-link {
+  display: block;
+}
+
+.pagination__arrow-link:hover .pagination__arrow-image {
+  fill: var(--colorOrangeLight);
+}

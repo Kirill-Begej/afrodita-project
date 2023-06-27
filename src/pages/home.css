@@ -1,6 +1,7 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/variables.css');
 @import url('../vendor/fonts.css');
+@import url('../vendor/scrollbar.css');
 @import url('../blocks/root/root.css');
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/menu/menu.css');
@@ -11,20 +12,19 @@
 @import url('../blocks/about/__phone/about__phone.css');
 @import url('../blocks/about/__schedule/about__schedule.css');
 @import url('../blocks/title/title.css');
-
-
-
+@import url('../blocks/pagination/pagination.css');
+@import url('../blocks/pagination/__link-container/pagination__link-container.css');
+@import url('../blocks/pagination/__arrow-link/pagination__arrow-link.css');
+@import url('../blocks/pagination/__arrow-image/pagination__arrow-image.css');
+@import url('../blocks/pagination/__list/pagination__list.css');
+@import url('../blocks/pagination/__item/pagination__item.css');
+@import url('../blocks/pagination/__page-link/pagination__page-link.css');
 @import url('../blocks/social/social.css');
 @import url('../blocks/social/__title/social__title.css');
 @import url('../blocks/social/__list/social__list.css');
 @import url('../blocks/social/__link/social__link.css');
-
-
-
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__container/header__container.css');
-
-
 @import url('../blocks/main/main.css');
 @import url('../blocks/banner/banner.css');
 @import url('../blocks/banner/__container/banner__container.css');
@@ -39,20 +39,30 @@
 @import url('../blocks/feauteres/__text/feauteres__text.css');
 @import url('../blocks/feauteres/__text-list/feauteres__text-list.css');
 @import url('../blocks/feauteres/__text-item/feauteres__text-item.css');
-
-
-
-
-
-
+@import url('../blocks/news/news.css');
+@import url('../blocks/news/__container/news__container.css');
+@import url('../blocks/news/__content/news__content.css');
+@import url('../blocks/news/__left-column/news__left-column.css');
+@import url('../blocks/news/__list/news__list.css');
+@import url('../blocks/news/__item/news__item.css');
+@import url('../blocks/news/__image-container/news__image-container.css');
+@import url('../blocks/news/__image-wrap/news__image-wrap.css');
+@import url('../blocks/news/__image/news__image.css');
+@import url('../blocks/news/__text-container/news__text-container.css');
+@import url('../blocks/news/__date/news__date.css');
+@import url('../blocks/news/__subtitle/news__subtitle.css');
+@import url('../blocks/news/__text/news__text.css');
+@import url('../blocks/news/__top-title/news__top-title.css');
+@import url('../blocks/news/__top-subtitle/news__top-subtitle.css');
+@import url('../blocks/news/__top-list/news__top-list.css');
+@import url('../blocks/news/__top-item/news__top-item.css');
+@import url('../blocks/news/__top-link/news__top-link.css');
+@import url('../blocks/news/__top-image/news__top-image.css');
+@import url('../blocks/news/__right-column/news__right-column.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__author/footer__author.css');
 @import url('../blocks/footer/__author-name/footer__author-name.css');
-
-
-
-
 @import url('../blocks/menu/__link-image/_type/menu__link-image_type_home.css');
 @import url('../blocks/menu/__link-image/_type/menu__link-image_type_reviews.css');
 @import url('../blocks/menu/__link-image/_type/menu__link-image_type_services.css');
@@ -60,12 +70,9 @@
 @import url('../blocks/title/_color/title_color_white.css');
 @import url('../blocks/title/_color/title_color_black.css');
 @import url('../blocks/title/_position/title_position_center.css');
-
-
-
-
-
-
+@import url('../blocks/pagination/__arrow-link/_inactive/pagination__arrow-link_inactive.css');
+@import url('../blocks/pagination/__arrow-image/_direction/pagination__arrow-image_direction_left.css');
+@import url('../blocks/pagination/__item/_active/pagination__item_active.css');
 @import url('../blocks/social/__image/_type/social__image_type_vk.css');
 @import url('../blocks/social/__image/_type/social__image_type_facebook.css');
 @import url('../blocks/social/__image/_type/social__image_type_google.css');

@@ -5,8 +5,3 @@
   --colorOrangeLight: #f89513;
   --colorOrange: #b46f14;
 }
-
-html, body {
-  scrollbar-color: var(--colorOrange) var(--colorBlackBg);
-  scrollbar-width: thin;
-}

@@ -1,0 +1,10 @@
+.pagination__item_active {
+  background-color: var(--colorBlackBg);
+  border-radius: 5px;
+}
+
+.pagination__item_active .pagination__page-link {
+  color: var(--colorOrangeLight);
+  cursor: default;
+  pointer-events: none;
+}

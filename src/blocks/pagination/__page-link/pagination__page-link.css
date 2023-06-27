@@ -1,0 +1,10 @@
+.pagination__page-link {
+  color: var(--colorBlack);
+  font: 14px 'OpensansBold', Arial, sans-serif;
+  text-decoration: none;
+  transition: color .3s ease-out;
+}
+
+.pagination__page-link:hover {
+  color: var(--colorOrangeLight);
+}

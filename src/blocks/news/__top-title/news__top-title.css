@@ -1,0 +1,6 @@
+.news__top-title {
+  color: var(--colorBlack);
+  font: 12px 'OpensansBold', Arial, sans-serif;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+}

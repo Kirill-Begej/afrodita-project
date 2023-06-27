@@ -1,0 +1,22 @@
+.news__top-link {
+  display: block;
+  padding-bottom: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.news__top-link::before {
+  background: rgba(42, 44, 47, .3);
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.3s ease-out;
+  z-index: 5;
+}
+
+.news__top-link:hover::before {
+  background: rgba(42, 44, 47, 0);
+}
