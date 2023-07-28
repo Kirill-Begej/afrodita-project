@@ -1,3 +1,9 @@
 .news__right-column {
   flex: 0 1 160px;
 }
+
+@media screen and (max-width: 868px) {
+  .news__right-column {
+    flex: 0 0 140px;
+  }
+}

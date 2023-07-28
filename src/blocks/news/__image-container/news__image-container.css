@@ -1,11 +1,11 @@
 .news__image-container {
+  align-self: center;
+  display: flex;
   flex: 0 1 160px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 868px) {
   .news__image-container {
-    display: flex;
-    align-self: center;
-    flex-shrink: 0;
+    flex: 0 0 140px;
   }
 }
