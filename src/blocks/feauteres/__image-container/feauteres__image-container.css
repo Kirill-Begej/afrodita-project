@@ -8,3 +8,9 @@
   width: 68px;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1024px) {
+  .feauteres__image-container {
+    margin-bottom: 30px;
+  }
+}

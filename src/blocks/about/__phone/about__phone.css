@@ -3,3 +3,9 @@
   font: 21px 'OpensansBold', Arial, sans-serif;
   text-decoration: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .about__phone {
+    font-size: 18px;
+  }
+}

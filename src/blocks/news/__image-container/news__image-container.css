@@ -1,3 +1,11 @@
 .news__image-container {
   flex: 0 1 160px;
 }
+
+@media screen and (max-width: 1024px) {
+  .news__image-container {
+    display: flex;
+    align-self: center;
+    flex-shrink: 0;
+  }
+}

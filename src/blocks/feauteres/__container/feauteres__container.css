@@ -1,8 +1,19 @@
 .feauteres__container {
-  margin-bottom: 103px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
   max-width: 740px;
-  padding-top: 49px;
+  padding-top: 50px;
+  row-gap: 50px;
   width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .feauteres__container {
+    margin-bottom: 60px;
+    padding-top: 30px;
+    row-gap: 30px;
+  }
 }
 
 @media screen and (max-width: 780px) {
