@@ -10,7 +10,11 @@
 @import url('../blocks/menu/__link-image/menu__link-image.css');
 @import url('../blocks/about/about.css');
 @import url('../blocks/about/__phone/about__phone.css');
-@import url('../blocks/about/__schedule/about__schedule.css');
+@import url('../blocks/dropdown/dropdown.css');
+@import url('../blocks/dropdown/__container/dropdown__container.css');
+@import url('../blocks/dropdown/__text/dropdown__text.css');
+@import url('../blocks/dropdown/__opening-hours/dropdown__opening-hours.css');
+@import url('../blocks/dropdown/__lunch-time/dropdown__lunch-time.css');
 @import url('../blocks/title/title.css');
 @import url('../blocks/pagination/pagination.css');
 @import url('../blocks/pagination/__link-container/pagination__link-container.css');

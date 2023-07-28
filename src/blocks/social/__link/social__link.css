@@ -7,7 +7,7 @@
   height: 20px;
   justify-content: center;
   overflow: hidden;
-  transition: .3s;
+  transition: .3s ease-out;
   width: 20px;
 }
 
