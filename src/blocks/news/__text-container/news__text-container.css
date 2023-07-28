@@ -1,9 +1,0 @@
-.news__text-container {
-  flex: 0 1 700px;
-}
-
-@media screen and (max-width: 1024px) {
-  .news__text-container {
-    flex-basis: 600px;
-  }
-}

@@ -1,7 +1,7 @@
-.news__top-subtitle {
-  color: #656464;
+.news-top__title {
+  color: var(--colorBlack);
   font: 12px 'OpensansBold', Arial, sans-serif;
   letter-spacing: 2.5px;
-  margin: 0 0 20px;
+  margin: -2px 0 4px;
   text-transform: uppercase;
 }

@@ -13,6 +13,7 @@ const devtool = devMode ? 'source-map' : undefined;
 const pages = [
   { chunks: ['index'], page: 'index.html', template: path.resolve(__dirname, './src/pages/index.html'), },
   { chunks: ['home'], page: 'home.html', template: path.resolve(__dirname, './src/pages/home.html'), },
+  { chunks: ['reviews'], page: 'reviews.html', template: path.resolve(__dirname, './src/pages/reviews.html'), },
 ];
 
 const htmlPlugins = pages.map((page) => {
@@ -31,6 +32,7 @@ module.exports = {
   entry: {
     'index': path.resolve(__dirname, './src/pages/index.js'),
     'home': path.resolve(__dirname, './src/pages/home.js'),
+    'reviews': path.resolve(__dirname, './src/pages/reviews.js'),
   },
   output: {
     path: path.resolve(__dirname, './dist'),

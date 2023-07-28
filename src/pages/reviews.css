@@ -16,21 +16,6 @@
 @import url('../blocks/dropdown/__opening-hours/dropdown__opening-hours.css');
 @import url('../blocks/dropdown/__lunch-time/dropdown__lunch-time.css');
 @import url('../blocks/title/title.css');
-@import url('../blocks/content/content.css');
-@import url('../blocks/content/__item/content__item.css');
-@import url('../blocks/content/__image-container/content__image-container.css');
-@import url('../blocks/content/__image-wrap/content__image-wrap.css');
-@import url('../blocks/content/__image/content__image.css');
-@import url('../blocks/content/__text-container/content__text-container.css');
-@import url('../blocks/content/__date/content__date.css');
-@import url('../blocks/content/__subtitle/content__subtitle.css');
-@import url('../blocks/content/__text/content__text.css');
-@import url('../blocks/news-top/__title/news-top__title.css');
-@import url('../blocks/news-top/__subtitle/news-top__subtitle.css');
-@import url('../blocks/news-top/__list/news-top__list.css');
-@import url('../blocks/news-top/__item/news-top__item.css');
-@import url('../blocks/news-top/__link/news-top__link.css');
-@import url('../blocks/news-top/__image/news-top__image.css');
 @import url('../blocks/pagination/pagination.css');
 @import url('../blocks/pagination/__link-container/pagination__link-container.css');
 @import url('../blocks/pagination/__arrow-link/pagination__arrow-link.css');
@@ -45,25 +30,13 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__container/header__container.css');
 @import url('../blocks/main/main.css');
-@import url('../blocks/banner/banner.css');
-@import url('../blocks/banner/__container/banner__container.css');
-@import url('../blocks/banner/__image/banner__image.css');
-@import url('../blocks/feauteres/feauteres.css');
-@import url('../blocks/feauteres/__container/feauteres__container.css');
-@import url('../blocks/feauteres/__list/feauteres__list.css');
-@import url('../blocks/feauteres/__item/feauteres__item.css');
-@import url('../blocks/feauteres/__image-container/feauteres__image-container.css');
-@import url('../blocks/feauteres/__subtitle/feauteres__subtitle.css');
-@import url('../blocks/feauteres/__text/feauteres__text.css');
-@import url('../blocks/feauteres/__text-list/feauteres__text-list.css');
-@import url('../blocks/feauteres/__text-item/feauteres__text-item.css');
-@import url('../blocks/news/news.css');
-@import url('../blocks/news/__container/news__container.css');
-@import url('../blocks/news/__content/news__content.css');
-@import url('../blocks/news/__left-column/news__left-column.css');
-@import url('../blocks/news/__image/news__image.css');
-@import url('../blocks/news/__right-column/news__right-column.css');
-@import url('../blocks/news/__text/news__text.css');
+
+
+
+
+
+
+
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__author/footer__author.css');

@@ -1,11 +1,11 @@
-.news__top-link {
+.news-top__link {
   display: block;
   padding-bottom: 75%;
   position: relative;
   width: 100%;
 }
 
-.news__top-link::before {
+.news-top__link::before {
   background: rgba(42, 44, 47, .3);
   bottom: 0;
   content: '';
@@ -17,6 +17,6 @@
   z-index: 5;
 }
 
-.news__top-link:hover::before {
+.news-top__link:hover::before {
   background: rgba(42, 44, 47, 0);
 }

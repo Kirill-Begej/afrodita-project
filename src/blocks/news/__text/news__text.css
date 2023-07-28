@@ -1,5 +1,5 @@
-.news__text {
-  margin: 0;
-  letter-spacing: -.5px;
-  line-height: 1.65;
+@media screen and (max-width: 1024px) {
+  .news__text {
+    flex-basis: 600px;
+  }
 }
