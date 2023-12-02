@@ -15,6 +15,8 @@
 @import url('../blocks/dropdown/__text/dropdown__text.css');
 @import url('../blocks/dropdown/__opening-hours/dropdown__opening-hours.css');
 @import url('../blocks/dropdown/__lunch-time/dropdown__lunch-time.css');
+@import url('../blocks/schedule/schedule.css');
+@import url('../blocks/schedule/__title/schedule__title.css');
 @import url('../blocks/title/title.css');
 @import url('../blocks/content/content.css');
 @import url('../blocks/content/__item/content__item.css');
@@ -44,6 +46,7 @@
 @import url('../blocks/social/__link/social__link.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__container/header__container.css');
+@import url('../blocks/header/__about/header__about.css');
 @import url('../blocks/main/main.css');
 @import url('../blocks/banner/banner.css');
 @import url('../blocks/banner/__container/banner__container.css');
@@ -61,9 +64,7 @@
 @import url('../blocks/news/__container/news__container.css');
 @import url('../blocks/news/__content/news__content.css');
 @import url('../blocks/news/__left-column/news__left-column.css');
-@import url('../blocks/news/__image/news__image.css');
 @import url('../blocks/news/__right-column/news__right-column.css');
-@import url('../blocks/news/__text/news__text.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__author/footer__author.css');

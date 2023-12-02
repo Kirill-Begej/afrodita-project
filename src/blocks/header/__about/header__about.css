@@ -1,0 +1,5 @@
+.header__about {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

@@ -1,6 +1,4 @@
 .news {
-  color: var(--colorBlack);
   display: flex;
-  font: 18px 'Opensans', Arial, sans-serif;
   justify-content: center;
 }

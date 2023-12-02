@@ -7,9 +7,3 @@
   padding-top: 14px;
   width: 100%;
 }
-
-@media screen and (max-width: 1100px) {
-  .header__container {
-    width: 96.36%;
-  }
-}

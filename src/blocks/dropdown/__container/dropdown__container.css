@@ -15,8 +15,6 @@
   z-index: -5;
 }
 
-
-
 .dropdown__container::before {
   content: '';
   border: 10px solid transparent;

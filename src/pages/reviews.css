@@ -3,6 +3,9 @@
 @import url('../vendor/fonts.css');
 @import url('../vendor/scrollbar.css');
 @import url('../blocks/root/root.css');
+@import url('../blocks/position/position_mb-30.css');
+@import url('../blocks/position/position_mb-50.css');
+@import url('../blocks/position/position_mb-60.css');
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/menu/menu.css');
 @import url('../blocks/menu/__list/menu__list.css');
@@ -15,6 +18,9 @@
 @import url('../blocks/dropdown/__text/dropdown__text.css');
 @import url('../blocks/dropdown/__opening-hours/dropdown__opening-hours.css');
 @import url('../blocks/dropdown/__lunch-time/dropdown__lunch-time.css');
+@import url('../blocks/breadcrumbs/breadcrumbs.css');
+@import url('../blocks/breadcrumbs/__item/breadcrumbs__item.css');
+@import url('../blocks/breadcrumbs/__link/breadcrumbs__link.css');
 @import url('../blocks/title/title.css');
 @import url('../blocks/pagination/pagination.css');
 @import url('../blocks/pagination/__link-container/pagination__link-container.css');
@@ -30,7 +36,19 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__container/header__container.css');
 @import url('../blocks/main/main.css');
+@import url('../blocks/reviews/reviews.css');
+@import url('../blocks/reviews/__container/reviews__container.css');
 
+
+@import url('../blocks/content/content.css');
+@import url('../blocks/content/__item/content__item.css');
+@import url('../blocks/content/__image-container/content__image-container.css');
+@import url('../blocks/content/__image-wrap/content__image-wrap.css');
+@import url('../blocks/content/__image/content__image.css');
+@import url('../blocks/content/__text-container/content__text-container.css');
+@import url('../blocks/content/__date/content__date.css');
+@import url('../blocks/content/__subtitle/content__subtitle.css');
+@import url('../blocks/content/__text/content__text.css');
 
 
 
@@ -45,9 +63,8 @@
 @import url('../blocks/menu/__link-image/_type/menu__link-image_type_reviews.css');
 @import url('../blocks/menu/__link-image/_type/menu__link-image_type_services.css');
 @import url('../blocks/menu/__link/_active/menu__link_active.css');
-@import url('../blocks/title/_color/title_color_white.css');
+@import url('../blocks/breadcrumbs/__link/_active/breadcrumbs__link_active.css');
 @import url('../blocks/title/_color/title_color_black.css');
-@import url('../blocks/title/_position/title_position_center.css');
 @import url('../blocks/pagination/__arrow-link/_inactive/pagination__arrow-link_inactive.css');
 @import url('../blocks/pagination/__arrow-image/_direction/pagination__arrow-image_direction_left.css');
 @import url('../blocks/pagination/__item/_active/pagination__item_active.css');

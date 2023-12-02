@@ -1,4 +1,6 @@
 .content {
+  color: var(--colorBlack);
+  font: 18px 'Opensans', Arial, sans-serif;
   list-style: none;
   margin: 0;
   padding: 0;

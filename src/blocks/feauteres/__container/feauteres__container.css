@@ -21,3 +21,11 @@
       width: 94.87%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .feauteres__container {
+    margin-bottom: 40px;
+    padding-top: 20px;
+    row-gap: 20px;
+  }
+}

@@ -9,3 +9,15 @@
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 570px) {
+  .about__phone {
+    font-size: calc(0.6em + 1vw);
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .about__phone {
+    font-size: calc(0.4em + 1vw);
+  }
+}
