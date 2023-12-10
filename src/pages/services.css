@@ -1,0 +1,45 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/variables.css');
+@import url('../vendor/fonts.css');
+@import url('../vendor/scrollbar.css');
+@import url('../blocks/root/root.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__list/menu__list.css');
+@import url('../blocks/menu/__link/menu__link.css');
+@import url('../blocks/menu/__link-image/menu__link-image.css');
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__phone/about__phone.css');
+@import url('../blocks/dropdown/dropdown.css');
+@import url('../blocks/dropdown/__container/dropdown__container.css');
+@import url('../blocks/dropdown/__text/dropdown__text.css');
+@import url('../blocks/dropdown/__opening-hours/dropdown__opening-hours.css');
+@import url('../blocks/dropdown/__lunch-time/dropdown__lunch-time.css');
+@import url('../blocks/breadcrumbs/breadcrumbs.css');
+@import url('../blocks/breadcrumbs/__item/breadcrumbs__item.css');
+@import url('../blocks/breadcrumbs/__link/breadcrumbs__link.css');
+@import url('../blocks/title/title.css');
+@import url('../blocks/social/social.css');
+@import url('../blocks/social/__title/social__title.css');
+@import url('../blocks/social/__list/social__list.css');
+@import url('../blocks/social/__link/social__link.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__container/header__container.css');
+@import url('../blocks/main/main.css');
+
+
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__container/footer__container.css');
+@import url('../blocks/footer/__author/footer__author.css');
+@import url('../blocks/footer/__author-name/footer__author-name.css');
+@import url('../blocks/menu/__link-image/_type/menu__link-image_type_home.css');
+@import url('../blocks/menu/__link-image/_type/menu__link-image_type_reviews.css');
+@import url('../blocks/menu/__link-image/_type/menu__link-image_type_services.css');
+@import url('../blocks/menu/__link/_active/menu__link_active.css');
+@import url('../blocks/breadcrumbs/__link/_active/breadcrumbs__link_active.css');
+@import url('../blocks/social/__image/_type/social__image_type_vk.css');
+@import url('../blocks/social/__image/_type/social__image_type_facebook.css');
+@import url('../blocks/social/__image/_type/social__image_type_google.css');
+@import url('../blocks/social/__image/_type/social__image_type_twitter.css');
+@import url('../blocks/social/__image/_type/social__image_type_mail.css');
