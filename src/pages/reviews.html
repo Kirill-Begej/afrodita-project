@@ -70,7 +70,7 @@
             <a href="/reviews.html" class="breadcrumbs__link breadcrumbs__link_active">Отзывы</a>
           </li>
         </ul>
-        <h2 class="title title_color_black indent_mb_50">Отзывы</h2>
+        <h1 class="title title_color_black indent_mb_50">Отзывы</h1>
         <ul class="content indent_mb_50">
           <li class="content__item">
             <div class="content__image-container news__image">
@@ -182,7 +182,45 @@
       </div>
     </section>
 
-
+    <section class="form">
+      <div class="form__wrapper">
+        <div class="form__container">
+          <h2 class="title form__title">Оставить отзыв</h2>
+          <form action="#" class="form__content">
+            <div class="form__contact">
+              <div class="form__contact-column">
+                <label class="form__label" for="name">Ваше имя</label>
+                <input class="form__input" type="text" id="name" required />
+              </div>
+              <div class="form__contact-column">
+                <label class="form__label" for="link">Ссылка на профиль VK</label>
+                <input class="form__input" type="url" id="link" required />
+              </div>
+            </div>
+            <div class="form__review">
+              <label class="form__label" for="review">Текст отзыва</label>
+              <textarea class="form__input form__textarea" id="review" required></textarea>
+            </div>
+            <div class="form__send">
+              <div class="form__radio-container">
+                <label class="form__label">Отображать фото в отзыве?</label>
+                <div class="form__radiobutton">
+                  <div class="form__radio">
+                    <input class="form__input-radio" id="radioYes" name="formFoto" type="radio" value="Yes" checked />
+                    <label class="form__label-radio" for="radioYes">Да</label>
+                  </div>
+                  <div class="form__radio">
+                    <input class="form__input-radio" id="radioNo" name="formFoto" type="radio" value="No" />
+                    <label class="form__label-radio" for="radioNo">Нет</label>
+                  </div>
+                </div>
+              </div>
+              <button class="form__button" type="submit">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
 
   </main>
 

@@ -35,8 +35,6 @@
 @import url('../blocks/main/main.css');
 @import url('../blocks/reviews/reviews.css');
 @import url('../blocks/reviews/__container/reviews__container.css');
-
-
 @import url('../blocks/content/content.css');
 @import url('../blocks/content/__item/content__item.css');
 @import url('../blocks/content/__image-container/content__image-container.css');
@@ -50,13 +48,21 @@
 @import url('../blocks/action/__container/action__container.css');
 @import url('../blocks/action/__text/action__text.css');
 @import url('../blocks/action/__slogan/action__slogan.css');
-
-
-
-
-
-
-
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__wrapper/form__wrapper.css');
+@import url('../blocks/form/__container/form__container.css');
+@import url('../blocks/form/__title/form__title.css');
+@import url('../blocks/form/__content/form__content.css');
+@import url('../blocks/form/__contact/form__contact.css');
+@import url('../blocks/form/__contact-column/form__contact-column.css');
+@import url('../blocks/form/__label/form__label.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__textarea/form__textarea.css');
+@import url('../blocks/form/__send/form__send.css');
+@import url('../blocks/form/__radiobutton/form__radiobutton.css');
+@import url('../blocks/form/__input-radio/form__input-radio.css');
+@import url('../blocks/form/__label-radio/form__label-radio.css');
+@import url('../blocks/form/__button/form__button.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__author/footer__author.css');
@@ -66,7 +72,6 @@
 @import url('../blocks/menu/__link-image/_type/menu__link-image_type_services.css');
 @import url('../blocks/menu/__link/_active/menu__link_active.css');
 @import url('../blocks/breadcrumbs/__link/_active/breadcrumbs__link_active.css');
-@import url('../blocks/title/_color/title_color_black.css');
 @import url('../blocks/pagination/__arrow-link/_inactive/pagination__arrow-link_inactive.css');
 @import url('../blocks/pagination/__arrow-image/_direction/pagination__arrow-image_direction_left.css');
 @import url('../blocks/pagination/__item/_active/pagination__item_active.css');

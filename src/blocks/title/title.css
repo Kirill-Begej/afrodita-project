@@ -1,18 +1,7 @@
 .title {
-  margin: 0;
+  color: var(--colorBlack);
   font: 49px 'OpensansBold', Arial, sans-serif;
-  text-transform: uppercase;
   letter-spacing: 1.3px;
-}
-
-@media screen and (max-width: 767px) {
-  .title {
-    font-size: calc(2em + 1vw);
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .title {
-    font-size: calc(1.5em + 1vw);
-  }
+  margin: 0;
+  text-transform: uppercase;
 }

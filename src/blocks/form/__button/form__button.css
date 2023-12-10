@@ -1,0 +1,17 @@
+.form__button {
+  background-color: var(--colorBlackBg);
+  border-radius: 5px;
+  border: 0;
+  color: var(--colorWhite);
+  font: bold 12px 'OpensansBold', Arial, sans-serif;
+  letter-spacing: 1px;
+  padding: 15px 22px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-out;
+}
+
+.form__button:hover {
+  cursor: pointer;
+  background-color: var(--colorOrangeLight);
+}

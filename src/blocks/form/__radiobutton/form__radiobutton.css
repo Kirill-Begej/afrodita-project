@@ -1,0 +1,4 @@
+.form__radiobutton {
+  display: flex;
+  column-gap: 20px;
+}

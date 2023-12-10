@@ -1,0 +1,8 @@
+.form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 550px;
+  color: var(--colorBlack);
+  font: 14px 'OpensansLight', Arial, sans-serif;
+}

@@ -1,0 +1,5 @@
+.form__textarea {
+  resize: none;
+  height: 90px;
+  padding: 10px;
+}
