@@ -5,4 +5,5 @@
   column-gap: 18px;
   display: flex;
   font: 14px 'OpensansLight', Arial, sans-serif;
+  justify-content: center;
 }
