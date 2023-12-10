@@ -1,0 +1,8 @@
+.action {
+  background: repeat url('../../images/action/action.jpg');
+  color: var(--colorWhite);
+  display: flex;
+  font: 18px 'OpensansLight', Arial, sans-serif;
+  justify-content: center;
+  padding: 30px 0 30px;
+}
