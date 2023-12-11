@@ -1,0 +1,3 @@
+.partners__link:hover .partners__image {
+  filter: grayscale(0);
+}

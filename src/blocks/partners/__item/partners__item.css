@@ -1,0 +1,14 @@
+.partners__item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.partners__item:nth-child(3n + 1) {
+  align-items: start;
+}
+
+.partners__item:nth-child(3n) {
+  align-items: end;
+}

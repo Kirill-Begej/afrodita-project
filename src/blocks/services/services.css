@@ -1,0 +1,8 @@
+.services {
+  display: grid;
+  gap: 45px 65px;
+  grid-template-columns: repeat(3, minmax(min-content, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

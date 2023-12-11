@@ -1,0 +1,5 @@
+.partners__image {
+  display: block;
+  filter: grayscale(1);
+  transition: filter .3s ease-out;
+}

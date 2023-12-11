@@ -1,0 +1,6 @@
+.services__title {
+  color: var(--colorBlack);
+  font: 18px 'OpensansBold', Arial, sans-serif;
+  margin: 0;
+  margin-bottom: 5px;
+}
