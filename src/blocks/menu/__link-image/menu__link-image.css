@@ -1,0 +1,4 @@
+.menu__link-image {
+  stroke: var(--colorWhite);
+  transition: .3s;
+}

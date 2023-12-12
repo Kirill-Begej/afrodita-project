@@ -1,0 +1,11 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 55px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    padding: 30px 0;
+  }
+}

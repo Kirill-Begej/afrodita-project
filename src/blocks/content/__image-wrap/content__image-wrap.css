@@ -1,0 +1,6 @@
+.content__image-wrap {
+  border-radius: 50%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 100%;
+}

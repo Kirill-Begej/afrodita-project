@@ -1,0 +1,20 @@
+.breadcrumbs__item {
+  margin-right: 5px;
+}
+
+.breadcrumbs__item:first-child::before {
+  content: '';
+}
+
+.breadcrumbs__item::before {
+  color: var(--colorOrangeLight);;
+  content: '/';
+}
+
+.breadcrumbs__item:last-child:before {
+  color: #656464;
+}
+
+.breadcrumbs__item:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,6 @@
+.services__text {
+  color: var(--colorBlack);
+  font: 14px 'OpensansLight', Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}

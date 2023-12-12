@@ -1,0 +1,8 @@
+.breadcrumbs {
+  display: flex;
+  font: 14px 'OpensansLightItalic', Arial, sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  letter-spacing: .2px;
+}

@@ -1,0 +1,17 @@
+.menu__link {
+  align-items: center;
+  color: var(--colorWhite);
+  column-gap: 18px;
+  display: flex;
+  height: 19px;
+  text-decoration: none;
+  transition: .3s ease-out;
+}
+
+.menu__link:hover {
+  color: var(--colorOrangeLight);
+}
+
+.menu__link:hover .menu__link-image {
+  stroke: var(--colorOrangeLight);
+}

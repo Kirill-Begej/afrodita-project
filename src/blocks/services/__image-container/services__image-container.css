@@ -1,0 +1,19 @@
+.services__image-container {
+  border-radius: 5px;
+  height: 0;
+  margin-bottom: 22px;
+  overflow: hidden;
+  padding-bottom: 61.2%;
+  position: relative;
+}
+
+.services__image-container::before {
+  background: rgba(42, 44, 47, .5);
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 5;
+}

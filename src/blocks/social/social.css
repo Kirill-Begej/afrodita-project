@@ -1,0 +1,6 @@
+.social {
+  color: var(--colorWhite);
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}

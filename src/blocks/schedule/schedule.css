@@ -1,0 +1,8 @@
+.schedule {
+  display: flex;
+  flex-direction: column;
+  color: var(--colorWhite);
+  align-items: center;
+  row-gap: 5px;
+  font: 16px 'Opensans', Arial, sans-serif;
+}

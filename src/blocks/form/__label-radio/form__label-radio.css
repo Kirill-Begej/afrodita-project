@@ -1,0 +1,38 @@
+.form__label-radio {
+  column-gap: 5px;
+  display: flex;
+  position: relative;
+}
+
+.form__label-radio:hover {
+  cursor: pointer;
+}
+
+.form__label-radio::before {
+  border-radius: 50%;
+  border: 1px solid var(--colorOrangeLight);
+  box-sizing: border-box;
+  content: '';
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+
+.form__label-radio::after {
+  background-color: var(--colorOrangeLight);
+  border-radius: 50%;
+  content: '';
+  display: block;
+  height: 8px;
+  left: 10px;
+  opacity: 0;
+  position: absolute;
+  top: 10px;
+  transform: translate(-50%, -50%);
+  transition: opacity .3s ease-out;
+  width: 8px;
+}
+
+.form__input-radio:checked+.form__label-radio::after {
+  opacity: 1;
+}

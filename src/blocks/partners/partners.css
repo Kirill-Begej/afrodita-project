@@ -1,0 +1,8 @@
+.partners {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  row-gap: 50px;
+}

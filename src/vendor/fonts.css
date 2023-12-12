@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'GoraFree';
+  src:
+    url('./fonts/gora-free.woff2') format('woff2'),
+    url('./fonts/gora-free.woff') format('woff');
+  font-weight: normal;
+  font-style:  normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Opensans';
+  src:
+    url('./fonts/opensans.woff2') format('woff2'),
+    url('./fonts/opensans.woff2') format('woff');
+  font-weight: normal;
+  font-style:  normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'OpensansBold';
+  src:
+    url('./fonts/opensans-bold.woff2') format('woff2'),
+    url('./fonts/opensans-bold.woff') format('woff');
+  font-weight: bold;
+  font-style:  normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'OpensansLight';
+  src:
+    url('./fonts/opensans-light.woff2') format('woff2'),
+    url('./fonts/opensans-light.woff') format('woff');
+  font-weight: 300;
+  font-style:  normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'OpensansLightItalic';
+  src:
+    url('./fonts/opensans-lightitalic.woff2') format('woff2'),
+    url('./fonts/opensans-lightitalic.woff') format('woff');
+  font-weight: 300;
+  font-style:  italic;
+  font-display: fallback;
+}

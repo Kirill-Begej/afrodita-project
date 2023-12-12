@@ -1,0 +1,4 @@
+.form__contact {
+  column-gap: 20px;
+  display: flex;
+}

@@ -1,0 +1,8 @@
+.content__image-container {
+  align-self: center;
+  display: flex;
+  flex: 0 1 160px;
+  justify-content: center;
+}
+
+

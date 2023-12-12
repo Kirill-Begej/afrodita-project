@@ -1,0 +1,6 @@
+.footer {
+  background-color: var(--colorBlackBg);
+  color: var(--colorWhite);
+  display: flex;
+  justify-content: center;
+}

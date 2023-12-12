@@ -1,0 +1,19 @@
+.form__input {
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  height: 45px;
+  line-height: inherit;
+  margin: 0;
+  outline: none;
+  padding: 0 10px 0;
+  transition: border .3s ease-out;
+  width: 100%;
+}
+
+.form__input:focus {
+  border: 1px solid var(--colorOrangeLight);
+}

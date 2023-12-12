@@ -1,0 +1,9 @@
+.form__wrapper {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  padding: 50px 0;
+  width: 100%;
+}

@@ -1,0 +1,5 @@
+.dropdown__opening-hours {
+  color: var(--colorOrangeLight);
+  display: block;
+  font: 14px 'OpensansBold', Arial, sans-serif;
+}

@@ -1,0 +1,5 @@
+.dropdown__lunch-time {
+  color: var(--colorBlack);
+  display: block;
+  font: 14px 'OpensansLight', Arial, sans-serif;
+}

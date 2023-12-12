@@ -1,0 +1,17 @@
+.intro__link {
+  background-color: var(--colorOrangeLight);
+  border-radius: 5px;
+  color: var(--colorWhite);
+  font: bold 12px 'Opensans', Arial, sans-serif;
+  letter-spacing: 1px;
+  padding: 16px 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-out;
+  width: 172px;
+}
+
+.intro__link:hover {
+  background-color: var(--colorBlackBg);
+}

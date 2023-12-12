@@ -1,0 +1,17 @@
+:root::-webkit-scrollbar {
+  width: 8px;
+}
+
+:root::-webkit-scrollbar-track {
+  background: var(--colorBlackBg);
+}
+
+:root::-webkit-scrollbar-thumb {
+  background: var(--colorOrange);
+  border-radius: 5px;
+}
+
+html, body {
+  scrollbar-color: var(--colorOrange) var(--colorBlackBg);
+  scrollbar-width: thin;
+}

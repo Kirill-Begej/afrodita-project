@@ -1,0 +1,4 @@
+.news__content {
+  column-gap: 20px;
+  display: flex;
+}

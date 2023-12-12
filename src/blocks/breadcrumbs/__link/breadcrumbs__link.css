@@ -1,0 +1,8 @@
+.breadcrumbs__link {
+  color: var(--colorOrangeLight);
+  transition: .3s ease-out;
+}
+
+.breadcrumbs__link:hover {
+  color: #656464;
+}

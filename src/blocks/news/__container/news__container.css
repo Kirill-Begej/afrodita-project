@@ -1,0 +1,9 @@
+.news__container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+  max-width: 1060px;
+  padding-top: 50px;
+  row-gap: 45px;
+  width: 100%;
+}

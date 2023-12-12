@@ -1,0 +1,19 @@
+.feauteres__text-item {
+  display: flex;
+  margin-bottom: 10px;
+  column-gap: 24px;
+  letter-spacing: .5px;
+}
+
+.feauteres__text-item::before {
+  align-self: center;
+  background-color: var(--colorWhite);
+  border-radius: 50%;
+  content: '';
+  height: 5px;
+  width: 5px;
+}
+
+.feauteres__text-item:last-child {
+  margin-bottom: 0;
+}
