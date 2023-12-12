@@ -19,3 +19,5 @@ ___
 * npm run build-dev - сборка проекта в режиме разработки;
 * npm run build-prod - сборка проекта в режиме продакшена.
 ___
+Ссылка на демо сайта - https://afrodita-chi.vercel.app/
+___
